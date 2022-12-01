@@ -2,5 +2,5 @@
 
 export(aoc_solutions)
 export(example_data_01)
-export(f01a)
-export(f01b)
+export(f01a_find_max_calories)
+export(f01b_find_top_3_calories_sum)
