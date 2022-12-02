@@ -3,8 +3,8 @@
 aoc_solutions <- list(
   day01a = 71924,
   day01b = 210406,
-  day02a = NA,
-  day02b = NA,
+  day02a = 11449,
+  day02b = 13187,
   day03a = NA,
   day03b = NA,
   day04a = NA,
@@ -56,8 +56,8 @@ aoc_solutions <- list(
 aoc_notes <- list(
   day01a = "split apply combine, using cumulative sum to detect changes",
   day01b = "split apply combine",
-  day02a = NA,
-  day02b = NA,
+  day02a = "lookup vectors/character subsetting, nested lists as lookup trees",
+  day02b = "lookup vectors/character subsetting, nested lists as lookup trees",
   day03a = NA,
   day03b = NA,
   day04a = NA,

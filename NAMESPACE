@@ -2,5 +2,8 @@
 
 export(aoc_solutions)
 export(example_data_01)
+export(example_data_02)
 export(f01a_find_max_calories)
 export(f01b_find_top_3_calories_sum)
+export(f02a_find_total_points)
+export(f02b_find_total_points)
