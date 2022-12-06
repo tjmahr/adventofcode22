@@ -38,5 +38,4 @@ test_that("day 06", {
   example_data_06(5) |>
     f06_find_end_of_first_marker(14) |>
     expect_equal(26)
-
 })

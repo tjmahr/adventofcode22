@@ -109,10 +109,7 @@ f06_find_end_of_first_marker <- function(x, width = 4) {
   indices <- seq(from = 0, to = offset)
 
   for (step in seq_len(length(chars) - offset)) {
-    n_unique <- chars[indices + step] |>
-      unique() |>
-      length()
-    if (n_unique != width) next else break
+    if (anyDuplicated(chars[indices + step])) next else break
   }
 
   step + offset
